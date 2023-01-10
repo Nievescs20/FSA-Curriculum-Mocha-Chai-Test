@@ -15,9 +15,9 @@ describe("Your tests for our functions", function () {
 
     xit("calling the function once with an empty input array should return an array with a length of 1", function () {});
 
-    xit("calling the function once with an empty input array should return an array with a one element, the element passed through as an arugment", function () {});
+    xit("calling the function once with an empty input array and an input should return an array with one element, the element passed through as an arugment", function () {});
 
-    xit("calling the function with an input should return an array where the last element is the element that was passed as an argument", function () {
+    xit("calling the function with an input should return the input array with the last element being the element that was passed as an argument", function () {
       //For example
       //addToAnyArray("one")
       //addToAnyArray("two")
