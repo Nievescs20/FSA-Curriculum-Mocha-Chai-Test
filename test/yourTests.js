@@ -17,25 +17,25 @@ describe("Your tests for our functions", function () {
 
   describe("Function addToAnyArray Tests", function () {
     //Here you will write tests for the addToArray function
-    xit("function addToAnyArray should return an array", function () {
+    xit("function addToAnyArray should return the array being passed as an argument", function () {
       const arr = [];
       const result = functions.addToAnyArray(arr, "hello world");
       expect(Array.isArray(result)).to.equal(true);
     });
 
-    xit("calling the function once with an input should return an array with a length of 1", function () {
+    xit("calling the function once with an empty input array should return an array with a length of 1", function () {
       const arr = [];
       const result = functions.addToAnyArray(arr, 1);
       expect(result.length).to.equal(1);
     });
 
-    xit("calling the function once with an input should return an array with a one element, the element passed through as an arugment", function () {
+    xit("calling the function once with an empty input array and an input should return an array with one element, the element passed through as an arugment", function () {
       const arr = [];
       const result = functions.addToAnyArray(arr, "argument");
       expect(result[0]).to.equal("argument");
     });
 
-    xit("calling the function with an input should return an array where the last element is the element that was passed as an argument", function () {
+    xit("calling the function with an input should return the input array with the last element being the element that was passed as an argument", function () {
       //For example
       //addToAnyArray(arr, "one")
       //addToAnyArray(arr, "two")
